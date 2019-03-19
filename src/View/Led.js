@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
-import ReactPlayer from 'react-player';
 import HeaderImg from '../View/headerImg';
 import Hero from '../Img/Kinnect_wall.jpg';
 import "../css/projects.scss";
