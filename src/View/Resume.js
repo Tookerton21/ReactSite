@@ -13,10 +13,10 @@ class Resume extends Component{
                 <HeaderImg Hero={HomeHero} Text={"Niko Ruiz"} SubText={"Let's build something amazing together"}/>
                 <Card className="cardMods">
                         <Card.Body className="CardBody">
-                            <h4 className="h4-Title">Summary</h4>
+                            <h4 className="h4-Title"><u>Summary</u></h4>
                             <p>Software Engineer with an excellent work ethic and proven team leadership, seeking to enhance professional skills while contributing to new developments in the field.</p>
                             
-                            <h4 className="h4-Title">Tech</h4>
+                            <h4 className="h4-Title"><u>Tech</u></h4>
                             <ul className="Ul-List">
                                 <li>Mac</li>
                                 <li>Linux</li>
@@ -32,7 +32,7 @@ class Resume extends Component{
                                 <li>RESTful</li>
                             </ul>
 
-                            <h4 className="h4-Title">Computer Languages</h4>
+                            <h4 className="h4-Title"><u>Computer Languages</u></h4>
                             <ul className="Ul-List">
                                 <li>C++</li>
                                 <li>C</li>
@@ -45,13 +45,13 @@ class Resume extends Component{
                                 <li>Chappel-Lang</li>
                             </ul>
 
-                            <h4 className="h4-Title">Education</h4>
+                            <h4 className="h4-Title"><u>Education</u></h4>
                             <p><b>Portland State University</b>, BS in Computer Science
                                 <br/>
                                 Portland, Oregon | 2018
                             </p>
 
-                            <h4 className="h4-Title">Experience</h4>
+                            <h4 className="h4-Title"><u>Education</u></h4>
                             <p><b>Pickathon | Software Engineer</b> May ‘18 - August ‘18</p>
                             <p>Program custom live-lightwall show. Translate live depth information from an Xbox Kinect to a custom LED light display. Uses a client-server model for communication between LED control and video data.</p>
                         

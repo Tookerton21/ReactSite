@@ -13,7 +13,7 @@ class Home extends Component{
         const Education = () => {
             return <div className="HomeItem" stytle={{paddingbottom: '20px'}}>
 
-                <h3>Education:</h3>
+                <h3><u>Education</u></h3>
                 <p><b>Portland State University</b><br />Bachelors of Science<br /> <i>December 2018</i></p>
 
             </div>
@@ -21,7 +21,7 @@ class Home extends Component{
 
         const Bio = () => {
             return <div className="HomeItem" style= {{paddingTop: '20px'}}>
-                <h3>Niko Ruiz</h3>
+                <h3><u>Niko Ruiz</u></h3>
                 <p>Software developer with an excellent work ethic and proven team leadership, seeking to enhance professional skills while contributing to new developments in the field.</p>
                 <p>I enjoy working, and socializing with others and I thrive off of interactive team environments. When I’m not at my desk coding you can probably find me at the local tap house coding. I always strive for excellence, but know how to balance that when pressed for time to meet any deadlines.</p>
             </div>
