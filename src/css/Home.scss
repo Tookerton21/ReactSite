@@ -1,0 +1,42 @@
+.Home{
+    .HomeItem { 
+    text-align: left;
+    padding-left: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    .flexList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-right: 40px;
+        .NoBul {
+            list-style-type: none;
+        }
+        li {
+             padding-right: 20px;
+        }
+
+    }
+}
+    
+    
+
+    p ul {
+        font-size: 20px;
+        
+    }
+    .BioPic{
+        margin-top: -150px;
+    }
+
+    .Education{
+       
+        padding-top: 20px;
+        
+
+       
+
+    }
+}

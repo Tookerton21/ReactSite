@@ -1,0 +1,19 @@
+.NavMenu {
+    
+    .left {
+        display: flex;
+        flex-direction: row;
+    }
+    @media screen and (max-width: 400px) {
+        .navbar-text{
+            display: none;
+       }
+    } 
+    
+}
+.navbar-text {
+@media screen and (max-width: 450px) {
+        display: none !important;
+    }
+
+} 

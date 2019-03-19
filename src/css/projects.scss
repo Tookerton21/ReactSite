@@ -1,0 +1,39 @@
+.Projects {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .card-body{
+        .video-body{
+            min-width: 660px;
+        }
+    }
+    .card-title {
+        margin-top: 15px;
+        text-align: center;
+    }
+   
+    .Project-Item {
+        margin-bottom: 15px;
+        max-width: 340px;
+        .pButton:hover {
+            background-color: #343a40 !important;
+            color: white;
+            border-radius: 4px;
+        }
+        .pButton {
+           
+            background-color: Transparent;
+            border: none;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+   
+}
