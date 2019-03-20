@@ -5,6 +5,7 @@ import HeaderImg from './headerImg';
 
 import '../css/Resume.scss';
 import '../css/general.scss';
+import "../css/Card.scss";
 
 class Resume extends Component{
     render(){

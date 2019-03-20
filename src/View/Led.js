@@ -3,6 +3,7 @@ import { Card } from 'react-bootstrap';
 import HeaderImg from '../View/headerImg';
 import Hero from '../Img/Kinnect_wall.jpg';
 import "../css/projects.scss";
+import "../css/Card.scss";
 
 class Led extends Component{
     render() {

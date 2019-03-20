@@ -14,6 +14,7 @@ class HeaderImg extends Component {
             backgroundRepeat: 'no-repeat',
             backgroundSize: "cover",
             minHeight: "450px",
+            filter: "saturate(30%)",
         }
         console.log(this.props);
         return (

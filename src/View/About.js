@@ -4,12 +4,14 @@ import { Card } from 'react-bootstrap';
 import HeaderImg from './headerImg';
 import Hero from '../Img/niko_hero.JPG';
 import '../css/general.scss';
+import "../css/Card.scss";
+
 
 class About extends Component{
     render(){
         var cardPos = {
             width: '75%',
-            marginTop: '20px',
+            marginTop: '5%',
             marginBottom: '50px',
             marginLeft: 'auto',
             marginRight: 'auto',

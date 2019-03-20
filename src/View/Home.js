@@ -4,7 +4,7 @@ import HeaderImg from './headerImg';
 import BioPic from '../Img/Niko.jpg';
 import {Image, Card} from 'react-bootstrap';
 import "../css/Home.scss";
-
+import "../css/Card.scss";
 class Home extends Component{
     render(){
         const Hero = HomeHero;

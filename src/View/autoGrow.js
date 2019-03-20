@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
-
 import Hero from '../Img/pi.jpg';
 import HeaderImg from './headerImg';
 import "../css/projects.scss";
+import "../css/Card.scss";
 
 class Autogrow extends Component{
     render() {
