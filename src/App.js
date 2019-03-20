@@ -5,7 +5,7 @@ import Led from './View/Led';
 import Autogrow from './View/autoGrow';
 import Resume from './View/Resume';
 import Footer from './View/footer';
-
+import Haskell from './View/haskell';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.scss';
 
@@ -26,6 +26,7 @@ class App extends Component {
           <Route exact path="/Projects" component={Projects} />
           <Route path="/Projects/LED" component={Led} />
           <Route path="/Projects/AutoGrow" component={Autogrow} />
+          <Route path="/Projects/Haskell" component={Haskell} />
         </Switch>
         <Footer />
       </div>

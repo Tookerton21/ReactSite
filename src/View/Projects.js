@@ -28,6 +28,14 @@ class Projects extends  Component{
 
                     </Card.Body>
                     </Card>
+                    <Card className="Project-Item">
+                        <Card.Title>Haskell Banking Application</Card.Title>
+                        <Card.Body>
+                            <p>Wanting to put my newly aquired functional programming knowledge to the test, I decided to create a Haskell Banking App. This included a Sql Lite database to store the users data. </p>
+                            <p><Link to="/Projects/Haskell"><Button varient="primary" className="pButton">View</Button></Link></p>
+                        </Card.Body>
+                    </Card>
+
                 </div>
             </div>
         );
