@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import HomeHero from '../Img/HomeHero.jpg';
 import HeaderImg from './headerImg';
-import BioPic from '../Img/Niko.jpg';
+import BioPic from '../Img/Profile_pic.jpg';
 import {Image, Card} from 'react-bootstrap';
 import "../css/Home.scss";
 import "../css/Card.scss";
