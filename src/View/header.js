@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, Image} from 'react-bootstrap';
 import Git from '../Img/github.png';
+import GitHover from '../Img/git_Hover.png';
 import Lin from '../Img/linkedin.png';
+import LinHover from '../Img/linked_Hover.png';
 import '../css/header.scss';
 
 
 class Header extends Component {
-  
+  state = {
+    gitImg: Git,
+    LinImg: Lin,
+}
     render() {
+   
+
       var floatRight = {
         justifyContent: 'flex-end',
       };
@@ -23,8 +30,13 @@ class Header extends Component {
           </Nav>
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text className="icons">
-                <a href="https://www.github.com/Tookerton21" style={{paddingRight: '20px'}}><Image src={Git}></Image></a>
-                <a href="https://www.linkedin.com/in/niko-ruiz"><Image src={Lin}></Image></a>
+            <a href="https://www.github.com/Tookerton21" style={{paddingRight: '40px'}}><Image src={this.state.gitImg}
+                        onMouseEnter = {() => {this.setState({gitImg: GitHover})}}
+                        onMouseOut = {() => {this.setState({gitImg: Git})}}></Image></a>
+                    <a href="https://www.linkedin.com/in/niko-ruiz"><Image src={this.state.LinImg}
+                        onMouseEnter = {() => {this.setState({LinImg: LinHover})}}
+                        onMouseOut = {() => {this.setState({LinImg: Lin})}}
+                    ></Image></a>
             </Navbar.Text>
           </Navbar.Collapse>
         </Navbar>
